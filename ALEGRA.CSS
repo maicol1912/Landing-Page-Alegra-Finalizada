@@ -131,7 +131,7 @@ input,.button-agendar{
 ::placeholder{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     position: absolute;
     left: 3px;
     top: 50;
@@ -435,7 +435,7 @@ li span{
     height: 6%;
     left: 28%;
     top: 45%;
-    font-size:6px ;
+    font-size:12px ;
 }
 .input-email{
  position: absolute;
@@ -443,7 +443,7 @@ li span{
  height: 6%;
  left: 28%;
  top: 58%;
- font-size:6px ;
+ font-size:12px ;
 }
 .input-tel{
     width: 40%;
@@ -451,7 +451,7 @@ li span{
     position: absolute;
     left: 28%;
     top: 71%;
-    font-size:6px ;
+    font-size:12px ;
 }
 .modal-information p span{
     position: absolute;
@@ -473,7 +473,7 @@ li span{
     left: 32%;
     top: 85%;
     color: white;
-    font-size: 5px;
+    font-size: 12px;
     height: 6%;
     width: 12%;
     z-index: 6;
@@ -505,7 +505,7 @@ li span{
     left: 52%;
     top: 85%;
     color: white;
-    font-size: 5px;
+    font-size: 12px;
     height: 6%;
     width: 12%;
     z-index: 6;
