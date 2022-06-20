@@ -1,0 +1,512 @@
+html{
+    position: absolute;
+    width:99.8%;
+    border: 1px solid; 
+    left: 0%;
+    height:370%;
+    padding: 0%;
+}
+.div-principal{
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    right: 0%;
+    bottom: 0%;
+    top: 0%;
+}
+.image-big{
+    text-align: center;
+    margin-top: 0%;
+    width: 100%;
+    height: 20%;
+    left: 0%;
+    top: 0%;
+}
+.image-leonor{
+    width: 99%;
+    left: 0%;
+}
+header{
+    position: absolute;
+    width: 100%;
+    height: 24.2%;
+    left: 0%;
+}
+.image-logo{
+    position: absolute;
+    top: 5%;
+    left: 16%;
+    height: 12%;
+    width: 15%;
+}
+@font-face{
+    font-family:Roboto-Medium;
+    src: url(Recursos/Roboto-Medium.ttf);
+ }
+p{
+    font-family:Roboto-Medium;
+    font-size:15px;
+ }
+.image-curva-superior{
+    position: absolute;
+    top: 57.6%;
+    height: 13%;
+    left: 0%;
+    width: 100%;
+}
+.div-text-principal{
+    position: absolute;
+    left: 16%;
+    top: 3.9%;
+    height: 10vw;
+}
+.text-principal{
+    color: #00B19D;
+    font-size: 2.8vw;
+    top: 5%;
+}
+.text-principal l{
+    color:#7c7c7c;
+    font-size: 2.8vw;
+}
+.div-text-pequeño{
+    position: absolute;
+    left: 16%;
+    top: 11.9%;
+    height: 10vw;
+}
+.text-pequeño{
+    color: #7c7c7c;
+    font-size: 1vw;
+}
+.contenedor-input{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 17.4%;
+    left: 17.2%;
+    width: 68%;
+    height: 4%;
+    border-radius: 2px;
+    box-shadow: 0.8px 0.8px 1.5px 0.8px rgba(89, 88, 88, 0.2); 
+}
+input{
+    border: 0.1px solid;
+    border-color: rgb(163, 163, 163);
+    border-radius:1px ;
+    background-color: #edeaea;
+    top: 35%;
+    font-size:1vw ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input,.button-agendar{
+    width: 15%;
+    height: 30%;
+    position: absolute;
+    z-index: 4;
+}
+.input-nombre{
+    position: absolute;
+    width: 26%;
+    left: 1.5%;  
+}
+.input-correo{
+    position: absolute;
+    left: 32%; 
+    width: 25%; 
+}
+.input-telefono{
+    position: absolute;
+    left: 61.5%; 
+    width: 18%; 
+}
+.button-agendar{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    left: 82%; 
+    height: 80%;
+    top: 49.2%;
+    border-radius:2px ;
+    z-index: 3;
+}
+::placeholder{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    position: absolute;
+    left: 3px;
+    top: 50;
+    color: rgb(99, 99, 99);
+    
+}
+.button-agendar{
+    position: absolute;
+    color: white ;
+    background-color:#00B19D;
+    border: 0.1px solid;
+    border-color: #00B19D;
+    height: 34%;
+    top: 35%;
+    left: 83%;
+}
+.button-agendar p{
+    position: absolute;
+    font-size: 0.8vw;
+    top: -5%;
+    right: 12%;
+}
+
+.div-sponsor{
+    position: absolute;
+    top: 27%;
+    left: 28.3%;
+    height: 1%;
+    width: 54%;
+   }
+  .image-elDia{
+      position: absolute;
+      width: 9vw;
+      height: 4vw;
+      left: 0%;
+   }
+  .image-redaccion{
+      position: absolute;
+      width: 11vw;
+      height: 3vw;
+      left:46%;
+      top: 30%;
+  }
+  .image-nd{
+      position: absolute;
+      width: 6vw;
+      height: 4vw;
+      left: 26%;
+      top: -10%;
+  }
+  .image-diario{
+      position: absolute;
+      width: 6vw;
+      height: 5.5vw;
+      left: 75%;
+      top:-60%;
+  }
+.div-texto-conoce p l{
+    color: #00B19D;
+    font-size: 2.5vw;
+}
+.div-texto-conoce p t{
+    color: #707070;
+    font-size: 2.5vw;
+    }
+.div-texto-conoce{
+    position: absolute;
+    top: 33%;
+    left: 30.3%;
+}
+.container-servicios{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+    padding: 0%;
+}
+.servicio-ejecutivo{
+    position: absolute;
+    height: 14%;
+    width: 25%;
+    top: 45%;
+    left: 10%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+}
+
+.servicio-facturacion{
+    position: absolute;
+
+    height: 14%;
+    width: 25%;
+    top: 45%;
+    left: 39%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+    
+}
+.servicio-contabilidad{
+    position: absolute;
+    height: 14%;
+    width:25%;
+    top: 45%;
+    left: 68%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+}
+.servicio-reportes{
+    position: absolute;
+    height: 14%;
+    width: 25%;
+    top: 68%;
+    left: 10%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+    
+}
+.servicio-integracion{
+    position: absolute;
+    height: 14%;
+    width: 25%;
+    top: 68%;
+    left: 39%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+}
+.servicio-costos{
+    position: absolute;
+    height: 14%;
+    width: 25%;
+    top: 68%;
+    left: 68%;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
+}
+#iconos{
+    position: absolute;
+    left: 4%;
+    top: 3%;
+    height: 58%;
+}
+#servicios p{
+    position: absolute;
+    left: 40%;
+    top: 0%;
+    color: #00B19D;
+    font-size: 18px;
+    bottom: 10%;
+}
+#servicios l{
+    position: absolute;
+    left: 6%;
+    top: 66%;
+    
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.image-footer,.image-footer-curva{
+    position: relative;
+    width: 95%;
+    left: 5%;
+    top: 130%;
+}
+.div-celular{
+    position: absolute;
+    height: 10%;
+    width: 15%;
+    top: 58%;
+    left: 10%;
+}
+.celular{
+    height: 170%; 
+}
+.texto-toma-control p{
+    position: absolute;
+    top: 58.8%;
+    left: 48%;
+    font-size: 2vw;
+    color: #00B19D;
+}
+.texto-toma-control p l{
+    color: #707070;
+}
+.ul-ventajas{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    top: 63%;
+    left: 46.8%;
+}
+li{
+    color:#00B19D;
+}
+li span{
+    color: #707070;
+}
+.div-descargas{
+    position: absolute;
+    top: 71.5%;
+    left: 48.5%;
+}
+.img-appstore,.img-google{
+    width: 25%;
+}
+.image-footer{
+    position: absolute;
+    top: 80%;
+    height: 20%;
+    width: 100%;
+    left: 0%;
+}
+.image-curva-2{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    left: -5%;
+}
+.image-footer-curva{
+    position: absolute;
+    width: 100%;
+}
+.empresas-alegra{
+    position: absolute;
+    top: 86%;
+    left: 29%;
+    font-size: 2vw;
+    color: white;
+    font-family: roboto-medium;
+}
+.logo-empresas-alegra{
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    width: 60%;
+    height: 1%;
+}
+.logo-empresas-alegra img{
+    position: absolute;
+    height: 8vw;
+    width: 13vw;
+    
+}
+.albem{
+    position: absolute;
+    left: -10%;
+    top: 50%;
+    
+}
+.jeunese{
+    position: absolute;
+    left: 22%;
+    top: 20%;
+}
+.ajach{
+    position: absolute;
+    left: 53%;
+    top: 20%;
+}
+.rudo{
+    position: absolute;
+    left: 82%;
+    top: 20%;
+}
+.copy{
+    position: absolute;
+    top: 97.5%;
+    font-size:0.9vw;
+    left: 45%;
+    color: #edeaea;
+}
+.contenedor-principal{
+    border: #000000 solid 1px;
+}
+.modal-information{
+     position: absolute;
+     height: 15%;
+     width: 45%;
+     left: 29%;
+     top: 22.5%;
+     background-color: white;
+     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+     border-radius: 5px;
+}
+.modal-information p{
+    font-size: 2vw;
+    left: 18%;
+    position: absolute;
+    color: #00B19D;
+    
+}
+.modal-information l{
+    position: absolute;
+    left:10%;
+    color:#707070;
+    font-size: 1.5vw;
+}
+.input-name{
+    position: absolute;
+    width: 40%;
+    height: 6%;
+    left: 28%;
+    top: 45%;
+    font-size:6px ;
+}
+.input-email{
+ position: absolute;
+ width: 40%;
+ height: 6%;
+ left: 28%;
+ top: 58%;
+ font-size:6px ;
+}
+.input-tel{
+    width: 40%;
+    height: 6%;
+    position: absolute;
+    left: 28%;
+    top: 71%;
+    font-size:6px ;
+}
+.modal-information p span{
+    position: absolute;
+    top: 13%;
+    color:#707070;
+    font-size: 1vw;
+    width: 200px;
+    
+}
+.ver-datos{
+    position: absolute;
+    top: 25%;
+    margin-left: 18%;
+}
+.button-aceptar{
+    position: absolute;
+    background-color: #00B19D;
+    border: #00B19D 4px solid;
+    left: 32%;
+    top: 85%;
+    color: white;
+    font-size: 5px;
+    height: 6%;
+    width: 12%;
+    z-index: 6;
+    
+}
+.modal-information label{
+    font-size: 12.5px;
+    font-family: roboto-medium;
+}
+.lName{
+    position: absolute;
+    top: 41%;
+    left: 28%;
+}
+.lEmail{
+    position: absolute;
+    left: 28%;
+    top: 54%;
+}
+.lApellido{
+    position: absolute;
+    left: 28%;
+    top: 67%;
+}
+.button-salir{
+    position: absolute;
+    background-color: #e00606;
+    border: #e00606 4px solid;
+    left: 52%;
+    top: 85%;
+    color: white;
+    font-size: 5px;
+    height: 6%;
+    width: 12%;
+    z-index: 6;
+}

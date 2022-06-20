@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>landin page Alegra</title>
+    <link rel="stylesheet" href="ALEGRA.CSS">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+<div class="div-principal">
+     <header>
+         <div class="image-big">
+        <img src="Recursos/LeonorCorpRedimensionada (1).png" alt="Leonor Corp" class="image-leonor">
+         </div>
+        <img src="Recursos/Curva 6.png" alt="curva" class="image-curva-superior">
+        <div>
+        <img src="Recursos/dark.png" alt="Logo Alegra" class="image-logo">    
+       </div>   
+    </header>
+        <div class="contenedor-input">
+            <input id="inputNombre" type="text" class="input-nombre" placeholder="Nombre completo*" required>
+            <input id="inputCorreo" type="email" class="input-correo" placeholder="Correo electronico*" required>
+            <input id="inputTelefono" type="number" class="input-telefono" placeholder="Telefono*" required>
+            <button onclick="Validar()" class="button-agendar" id="button2"><p>AGENDAR LLAMADA</p></button>
+        </div>
+        <div class="div-text-principal">
+            <p class="text-principal">Software de e-CF<br>certificados por la DGll<br>
+                                  <l>¡La solución completa<br> para tu empresa!<br></l>
+                                  </p>
+        </div>
+        <div class="div-text-pequeño">
+            <p class="text-pequeño">                     
+                                    un sistema contable a la medida de tu empresa Contabilidad<br>automatizada, reportes inteligentes,
+                                    funciones ilimitadas y un<br>ejecutivo de cuenta asignado.</p>
+        </div>
+        
+        <div class="div-sponsor">
+            <img src="Recursos/El día.png" alt="" class="image-elDia">
+            <img src="Recursos/La Nación Dominicana.png" alt="" class="image-nd">
+            <img src="Recursos/Redacción RD.png" alt="" class="image-redaccion">
+            <img src="Recursos/El Nuevo Diario.png" alt="" class="image-diario">
+        </div>
+        <div class="div-texto-conoce">
+            <p>
+                <t> Conoce nuestra</t>
+                <l>solución corporativa</l>
+            </p>
+        </div>
+        <div class="container-servicios">
+            <div class="servicio-ejecutivo" id="servicios"><img src="Recursos/Frame 16.png" alt="" id="iconos">
+                <p>Ejecutivo de<br>cuenta</p>
+                <l>Recibiras el apoyo de un agente<br>especializado listo para ayudarte</l>
+            </div>
+            <div class="servicio-facturacion" id="servicios"><img src="Recursos/Frame 16(1).png" alt="" id="iconos">
+                <p>Facturación<br>Electrónica</p>
+                <l>Emite facturas electronicas sin limites<br> ingresos o numero de comprobantes</l>
+            </div>
+            <div class="servicio-contabilidad" id="servicios"><img src="Recursos/Frame 16(2).png" alt="" id="iconos">
+                <p>Contabilidad<br>automatizada</p>
+                <l>Ingresa tus ventas.Alegra se encarga de lo <br> demas</l>
+            </div>
+            <div class="servicio-reportes" id="servicios"><img src="Recursos/Frame 16(5).png" alt="" id="iconos">
+                <p>Reportes inteligentes</p>
+                <l>Accede a reportes contables cuando lo<br>necesites y siempre actualizados</l>
+            </div>
+            <div class="servicio-integracion" id="servicios"><img src="Recursos/Frame 16(4).png" alt="" id="iconos">
+                <p>Integracion con<br>otros sistemas </p>
+                <l>Conecta Alegra con tus plataformas<br>favoritas en tan solo un clic</l>
+            </div>
+            <div class="servicio-costos" id="servicios"><img src="Recursos/Frame 16(3).png" alt="" id="iconos">
+                <p>Centro de costos</p>
+                <l>Controla cada uno de tus proyectos <br> monitoreando tus recursos en vivo</l>
+            </div>
+        </div>
+        <div class="div-celular"><img class="celular" src="Recursos/Group 608.png" alt=""></div>
+
+        <div class="texto-toma-control">
+            <p>Toma el control <l>de tu empresa</l> desde<br>
+                cualquier lugar <l>con la app movil</l>
+            </p>
+        </div>
+        <div class="ul-ventajas">
+            <ul>
+                <li><span>Crea facturas de venta y cotizaciones de forma agil y sencilla.</span></li><br>
+                <li><span>Crea productos y servicios con un parde clics.</span></li><br>
+                <li><span>Consulta tu inventario, facturas y cotizaciones desde casa.</span></li><br>
+                <li><span>Registra en segundos tus facturas de proovedores y agrega<br>
+                        los pagos que realices</span></li><br>
+                <li><span>Gestiona tus gastos en tiempo real.</span></li><br>
+            </ul>
+        </div>
+        <div class="div-descargas">
+            <img class="img-appstore" src="Recursos/Descarga de appstore 2.png" alt="">
+            <img class="img-google" src="Recursos/Descarga de Google play 2.png" alt="">
+        </div>
+        <div class="modal-information" style="display:none"><p>Sus datos se enviaron con exito<br>
+                                       <l>En breve se le realizara una llamada</p>
+                                       <label class="lName">Nombre</label>
+                                       <input class="input-name" type="text" placeholder="name" disabled>
+                                       <label class="lEmail">Email</label>
+                                       <input class="input-email" type="email" placeholder="email" disabled>
+                                       <label class="lApellido">Telefono</label>
+                                       <input class="input-tel" type="number" placeholder="tel" disabled>
+                                       <p class="ver-datos"><span>los datos ingresados fueron</span></p>
+                                       <button class="button-aceptar" onclick="ocultarVentana()">ACEPTAR</button>
+                                       <button class="button-salir" onclick="ocultarVentana()">SALIR</button>
+                                    </div>
+        <div class="modal-error"></div>
+        <div class="div-footer">
+        <footer>
+            
+                <img class="image-footer" src="Recursos/Empresas.png" alt="">
+            
+            <div class="image-curva-2">
+                <img class="image-footer-curva" src="Recursos/Curva.png" alt="">
+            </div>
+            <p class="empresas-alegra">Empresas que crecen junto a Alegra</p>
+            <div class="logo-empresas-alegra">
+                <img class="albem" src="Recursos/Albem.png" alt="">
+                <img class="jeunese" src="Recursos/Jeunesse.png" alt="">
+                <img class="ajach" src="Recursos/Proyecto Ajach.png" alt="">
+                <img class="rudo" src="Recursos/Rudo motos.png" alt="">
+            </div>
+            <p class="copy">COPYRIGHT 2020 soluciones Alegra S.A.S</p>
+        </footer>
+        </div>
+</div>   
+    <script src="ALEGRA.JS"></script>
+</body>
+
+</html>
