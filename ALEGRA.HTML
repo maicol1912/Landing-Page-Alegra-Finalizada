@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <html lang="en">
     <meta charset="UTF-8">
@@ -6,37 +7,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>landin page Alegra</title>
     <link rel="stylesheet" href="ALEGRA.CSS">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 </head>
 
 <body>
-<div class="div-principal">
-     <header>
-         <div class="image-big">
-        <img src="Recursos/LeonorCorpRedimensionada (1).png" alt="Leonor Corp" class="image-leonor">
-         </div>
-        <img src="Recursos/Curva 6.png" alt="curva" class="image-curva-superior">
-        <div>
-        <img src="Recursos/dark.png" alt="Logo Alegra" class="image-logo">    
-       </div>   
-    </header>
+    <div class="div-principal">
+        <header>
+            <div class="image-big">
+                <img src="Recursos/LeonorCorpRedimensionada (1).png" alt="Leonor Corp" class="image-leonor">
+            </div>
+            <img src="Recursos/Curva 6.png" alt="curva" class="image-curva-superior">
+            <div>
+                <img src="Recursos/dark.png" alt="Logo Alegra" class="image-logo">
+            </div>
+            <div class="div-text-principal">
+                <p class="text-principal">Software de e-CF<br>certificados por la DGll<br>
+                    <l>¡La solución completa<br> para tu empresa!<br></l>
+                </p>
+                <div class="div-text-pequeño">
+                    <p class="text-pequeño">
+                        un sistema contable a la medida de tu empresa Contabilidad<br>automatizada, reportes
+                        inteligentes,
+                        funciones ilimitadas y un<br>ejecutivo de cuenta asignado.</p>
+                </div>
+            </div>
+
+        </header>
         <div class="contenedor-input">
             <input id="inputNombre" type="text" class="input-nombre" placeholder="Nombre completo*" required>
             <input id="inputCorreo" type="email" class="input-correo" placeholder="Correo electronico*" required>
             <input id="inputTelefono" type="number" class="input-telefono" placeholder="Telefono*" required>
-            <button onclick="Validar()" class="button-agendar" id="button2"><p>AGENDAR LLAMADA</p></button>
+            <button onclick="Validar()" class="button-agendar" id="button2">
+                <p>AGENDAR LLAMADA</p>
+            </button>
         </div>
-        <div class="div-text-principal">
-            <p class="text-principal">Software de e-CF<br>certificados por la DGll<br>
-                                  <l>¡La solución completa<br> para tu empresa!<br></l>
-                                  </p>
-        </div>
-        <div class="div-text-pequeño">
-            <p class="text-pequeño">                     
-                                    un sistema contable a la medida de tu empresa Contabilidad<br>automatizada, reportes inteligentes,
-                                    funciones ilimitadas y un<br>ejecutivo de cuenta asignado.</p>
-        </div>
-        
+
+
         <div class="div-sponsor">
             <img src="Recursos/El día.png" alt="" class="image-elDia">
             <img src="Recursos/La Nación Dominicana.png" alt="" class="image-nd">
@@ -96,38 +103,40 @@
             <img class="img-appstore" src="Recursos/Descarga de appstore 2.png" alt="">
             <img class="img-google" src="Recursos/Descarga de Google play 2.png" alt="">
         </div>
-        <div class="modal-information" style="display:none"><p>Sus datos se enviaron con exito<br>
-                                       <l>En breve se le realizara una llamada</p>
-                                       <label class="lName">Nombre</label>
-                                       <input class="input-name" type="text" placeholder="name" disabled>
-                                       <label class="lEmail">Email</label>
-                                       <input class="input-email" type="email" placeholder="email" disabled>
-                                       <label class="lApellido">Telefono</label>
-                                       <input class="input-tel" type="number" placeholder="tel" disabled>
-                                       <p class="ver-datos"><span>los datos ingresados fueron</span></p>
-                                       <button class="button-aceptar" onclick="ocultarVentana()">ACEPTAR</button>
-                                       <button class="button-salir" onclick="ocultarVentana()">SALIR</button>
-                                    </div>
+        <div class="modal-information" style="display:block">
+            <p>Sus datos se enviaron con exito<br>
+                <l>En breve se le realizara una llamada
+            </p>
+            <label class="lName">Nombre</label>
+            <input class="input-name" type="text" placeholder="Nombre" disabled>
+            <label class="lEmail">Email</label>
+            <input class="input-email" type="email" placeholder="Email" disabled>
+            <label class="lApellido">Telefono</label>
+            <input class="input-tel" type="number" placeholder="Tel" disabled>
+            <p class="ver-datos"><span>los datos ingresados fueron</span></p>
+            <button class="button-aceptar" onclick="ocultarVentana()">ACEPTAR</button>
+            <button class="button-salir" onclick="ocultarVentana()">SALIR</button>
+        </div>
         <div class="modal-error"></div>
         <div class="div-footer">
-        <footer>
-            
+            <footer>
+
                 <img class="image-footer" src="Recursos/Empresas.png" alt="">
-            
-            <div class="image-curva-2">
-                <img class="image-footer-curva" src="Recursos/Curva.png" alt="">
-            </div>
-            <p class="empresas-alegra">Empresas que crecen junto a Alegra</p>
-            <div class="logo-empresas-alegra">
-                <img class="albem" src="Recursos/Albem.png" alt="">
-                <img class="jeunese" src="Recursos/Jeunesse.png" alt="">
-                <img class="ajach" src="Recursos/Proyecto Ajach.png" alt="">
-                <img class="rudo" src="Recursos/Rudo motos.png" alt="">
-            </div>
-            <p class="copy">COPYRIGHT 2020 soluciones Alegra S.A.S</p>
-        </footer>
+
+                <div class="image-curva-2">
+                    <img class="image-footer-curva" src="Recursos/Curva.png" alt="">
+                </div>
+                <p class="empresas-alegra">Empresas que crecen junto a Alegra</p>
+                <div class="logo-empresas-alegra">
+                    <img class="albem" src="Recursos/Albem.png" alt="">
+                    <img class="jeunese" src="Recursos/Jeunesse.png" alt="">
+                    <img class="ajach" src="Recursos/Proyecto Ajach.png" alt="">
+                    <img class="rudo" src="Recursos/Rudo motos.png" alt="">
+                </div>
+                <p class="copy">COPYRIGHT 2020 soluciones Alegra S.A.S</p>
+            </footer>
         </div>
-</div>   
+    </div>
     <script src="ALEGRA.JS"></script>
 </body>
 
