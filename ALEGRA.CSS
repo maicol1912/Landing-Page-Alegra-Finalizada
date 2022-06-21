@@ -1,8 +1,8 @@
 html{
     position: absolute;
-    width:99.8%;
+    width:99vw;
     left: 0%;
-    height:370%;
+    height:196vw;
     padding: 0%;
 }
 .div-principal{
@@ -34,10 +34,10 @@ header{
 }
 .image-logo{
     position: absolute;
-    top: 5%;
+    top: 2vw;
     left: 16%;
     height: 4vw;
-    width: 10vw;
+    width: 11vw;
 }
 @font-face{
     font-family:Roboto-Medium;
@@ -49,7 +49,7 @@ p{
  }
 .image-curva-superior{
     position: absolute;
-    top: 62%;
+    top: 29vw;
     height: 13%;
     left: 0%;
     width: 100%;
@@ -57,7 +57,7 @@ p{
 .div-text-principal{
     position: absolute;
     left: 16%;
-    top: 11%;
+    top: 8vw;
     height: 10vw;
 }
 .text-principal{
@@ -82,10 +82,10 @@ p{
 .contenedor-input{
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 17.4%;
-    left: 17.2%;
-    width: 68%;
-    height: 4%;
+    top: 35vw;
+    left: 18vw;
+    width: 67vw;
+    height: 7.5vw;
     border-radius: 2px;
     box-shadow: 0.8px 0.8px 1.5px 0.8px rgba(89, 88, 88, 0.2); 
 }
@@ -147,7 +147,7 @@ input,.button-agendar{
     background-color:#00B19D;
     border: 0.1px solid;
     border-color: #00B19D;
-    height: 34%;
+    height: 2.7vw;
     top: 35%;
     left: 83%;
 }
@@ -160,7 +160,7 @@ input,.button-agendar{
 
 .div-sponsor{
     position: absolute;
-    top: 26%;
+    top: 53vw;
     left: 28.3%;
     height: 1%;
     width: 54%;
@@ -202,22 +202,22 @@ input,.button-agendar{
     }
 .div-texto-conoce{
     position: absolute;
-    top: 33%;
+    top: 65vw;
     left: 30.3%;
 }
 .container-servicios{
     position: absolute;
-    top: 20%;
-    left: 10%;
+    top: 40vw;
+    left: 10vw;
     width: 80%;
     height: 40%;
     padding: 0%;
 }
 .servicio-ejecutivo{
     position: absolute;
-    height: 14%;
-    width: 25%;
-    top: 45%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 35.3vw;
     left: 10%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
@@ -226,9 +226,9 @@ input,.button-agendar{
 .servicio-facturacion{
     position: absolute;
 
-    height: 14%;
-    width: 25%;
-    top: 45%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 35.3vw;
     left: 39%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
@@ -236,18 +236,18 @@ input,.button-agendar{
 }
 .servicio-contabilidad{
     position: absolute;
-    height: 14%;
-    width:25%;
-    top: 45%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 35.3vw;
     left: 68%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
 }
 .servicio-reportes{
     position: absolute;
-    height: 14%;
-    width: 25%;
-    top: 68%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 50.7vw;
     left: 10%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
@@ -255,18 +255,18 @@ input,.button-agendar{
 }
 .servicio-integracion{
     position: absolute;
-    height: 14%;
-    width: 25%;
-    top: 68%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 50.7vw;
     left: 39%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
 }
 .servicio-costos{
     position: absolute;
-    height: 14%;
-    width: 25%;
-    top: 68%;
+    height: 10.9vw;
+    width: 19.7vw;
+    top: 50.7vw;
     left: 68%;
     border-radius: 2px;
     box-shadow: 1px 1px 1px 0.1px rgba(0, 0, 0, 0.2);
@@ -275,21 +275,21 @@ input,.button-agendar{
     position: absolute;
     left: 4%;
     top: 3%;
-    height: 58%;
+    height: 5.9vw;
 }
 #servicios p{
     position: absolute;
     left: 40%;
     top: 0%;
     color: #00B19D;
-    font-size: 18px;
+    font-size: 1.4vw;
     bottom: 10%;
 }
 #servicios l{
     position: absolute;
     left: 6%;
     top: 66%;
-    font-size: 12px;
+    font-size: 0.9vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 .image-footer,.image-footer-curva{
@@ -300,19 +300,20 @@ input,.button-agendar{
 }
 .div-celular{
     position: absolute;
-    height: 10%;
-    width: 15%;
-    top: 58%;
-    left: 10%;
+    height: 1vw;
+    width: 1vw;
+    top: 108vw;
+    left: 6vw;
 }
 .celular{
-    height: 170%; 
+    height: 35vw;
+
 }
 .texto-toma-control p{
     position: absolute;
-    top: 58.8%;
-    left: 48%;
-    font-size: 2vw;
+    top: 105vw;
+    left: 42vw;
+    font-size: 3vw;
     color: #00B19D;
 }
 .texto-toma-control p l{
@@ -321,9 +322,9 @@ input,.button-agendar{
 .ul-ventajas{
     position: absolute;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    top: 63%;
-    left: 46.8%;
+    font-size: 1.2vw;
+    top: 116vw;
+    left: 42%;
 }
 li{
     color:#00B19D;
@@ -333,22 +334,22 @@ li span{
 }
 .div-descargas{
     position: absolute;
-    top: 71.5%;
-    left: 48.5%;
+    top: 134vw;
+    left: 43.2%;
 }
 .img-appstore,.img-google{
-    width: 25%;
+    height: 4vw;
 }
 .image-footer{
     position: absolute;
-    top: 80%;
-    height: 20%;
+    top: 157vw;
+    height: 40vw;
     width: 100%;
     left: 0%;
 }
 .image-curva-2{
     position: absolute;
-    top: 80%;
+    top: 157vw;
     width: 100%;
     left: -5%;
 }
@@ -358,7 +359,7 @@ li span{
 }
 .empresas-alegra{
     position: absolute;
-    top: 86%;
+    top: 170vw;
     left: 29%;
     font-size: 2vw;
     color: white;
@@ -366,8 +367,8 @@ li span{
 }
 .logo-empresas-alegra{
     position: absolute;
-    top: 90%;
-    left: 25%;
+    top: 178vw;
+    left: 25vw;
     width: 60%;
     height: 1%;
 }
@@ -410,7 +411,7 @@ li span{
 }
 .modal-information{
      position: absolute;
-     height: 15%;
+     height: 27vw;
      width: 45%;
      left: 29%;
      top: 22.5%;
@@ -420,44 +421,45 @@ li span{
 }
 .modal-information p{
     font-size: 2vw;
-    left: 18%;
+    left: 9vw;
     position: absolute;
     color: #00B19D;
     
 }
 .modal-information l{
     position: absolute;
-    left:10%;
+    left: 2vw;
     color:#707070;
     font-size: 1.5vw;
 }
 .input-name{
     position: absolute;
-    width: 40%;
-    height: 6%;
-    left: 28%;
-    top: 45%;
-    font-size:12px ;
+    width: 18vw;
+    height: 1.8vw;
+    left: 12.4vw;
+    top: 12vw;
+    font-size:1vw ;
 }
 .input-email{
- position: absolute;
- width: 40%;
- height: 6%;
- left: 28%;
- top: 58%;
- font-size:12px ;
+    position: absolute;
+    width: 18vw;
+    height: 1.8vw;
+    left: 12.4vw;
+    top: 15.7vw;
+    font-size:1vw ;
 }
 .input-tel{
-    width: 40%;
-    height: 6%;
     position: absolute;
-    left: 28%;
-    top: 71%;
-    font-size:12px ;
+    width: 18vw;
+    height: 1.8vw;
+    left: 12.4vw;
+    top: 19.4vw;
+    font-size:1vw ;
 }
 .modal-information p span{
     position: absolute;
-    top: 13%;
+    top: -0.5vw;
+    left: -1vw;
     color:#707070;
     font-size: 1vw;
     width: 20vw;
@@ -472,43 +474,43 @@ li span{
     position: absolute;
     background-color: #00B19D;
     border: #00B19D 4px solid;
-    left: 32%;
-    top: 85%;
+    left: 13.5vw;
+    top: 22.9vw;
     color: white;
-    font-size: 12px;
-    height: 6%;
-    width: 15%;
+    font-size: 0.8vw;
+    height: 2vw;
+    width: 7vw;
     z-index: 6;
     
 }
 .modal-information label{
-    font-size: 12.5px;
+    font-size: 0.8vw;
     font-family: roboto-medium;
 }
 .lName{
     position: absolute;
-    top: 41%;
-    left: 28%;
+    top: 10.9vw;
+    left: 12.5vw;
 }
 .lEmail{
     position: absolute;
-    left: 28%;
-    top: 54%;
+    left: 12.5vw;
+    top: 14.7vw;
 }
 .lApellido{
     position: absolute;
-    left: 28%;
-    top: 67%;
+    left: 12.5vw;
+    top: 18.5vw;
 }
 .button-salir{
     position: absolute;
     background-color: #e00606;
     border: #e00606 4px solid;
-    left: 52%;
-    top: 85%;
+    left: 22.5vw;
+    top: 22.9vw;
     color: white;
-    font-size: 12px;
-    height: 6%;
-    width: 12%;
+    font-size: 0.8vw;
+    height: 2vw;
+    width: 7vw;
     z-index: 6;
 }
